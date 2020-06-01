@@ -50,6 +50,7 @@ Let us begin with the explanation of each design pattern and how and why
 it was implemented in our system.
 
 1. Object Pool Design Pattern
+![](images/ObjectPool.png)
 This design pattern helped us in the creation of the shape of the objects in
 the tetris game. The reason we used the reusable object pool design
 pattern is that we wanted to reuse the same object over and over again, as
@@ -63,6 +64,7 @@ mirrorShape, etc. We want to be able to call and reuse these shapes over
 and over again without having to recreate and destroy them.
 
 2. Snapshot Design Pattern
+![](images/Snapshot.png)
 The Snapshot or the Memento Design pattern was
 implemented in our minesweeper and our Cross Circles game.
 This was done for the purpose of restoring the object to the
@@ -75,6 +77,7 @@ implemented with three objects: CellOriginator, GameCaretaker
 and ScoreSnapshot which acts as the ScoreMemento.
 
 3. Singleton Design Pattern
+![](images/Singleton.png)
 The reason we used singleton design pattern is because we want the
 object to instantiate only one game at a time. Since we have five games in
 our game hub, we want just one game to get instantiated upon clicking the
@@ -85,6 +88,7 @@ be instantiated. This is the reason why we made use of the singleton
 design pattern.
 
 4. Builder Design Pattern
+![](images/BuilderPattern.png)
 We used Builder design pattern to change the color of Cannon Ball for the
 Cannon Simulator. The reason for using the Builder design pattern is so as
 to be able to hide the constructive complexity of the game from its
@@ -93,6 +97,7 @@ code. In our case, our Product is a ConcreteBall, and we can change the
 color of that ball as we please.
 
 5. State Design Pattern
+![](images/StatePattern.png)
 We have implemented the state design pattern in our Snake Game. The
 reason we used this design pattern is so that we can alter its behaviour
 when the internal state of the game changes like when the snake eats food,
@@ -106,7 +111,9 @@ all possess a unique set of features that make them enjoyable and
 fun to play. Here are the games along with their features and
 screenshots:
 Tetris
+![](images/TetrisBefore.png)
 Fig 1.1 The before image for Tetris
+![](images/TetrisAfter.png)
 Fig 1.2 The after image for Tetris
 Tetris is a tile matching game that plays with the idea of matching multiple
 objects of various shapes to combine and form a line so as to clear the
@@ -121,7 +128,9 @@ cleared due to matching of puzzle pieces.
 ● Ability to Pause the game as per users choice.
 
 Minesweeper
+![](images/MinesweeperBefore.png)
 Figure 2.1 The before image for minesweeper
+![](images/MinesweeperAfter.png)
 Figure 2.2 The after image for minesweeper
 The minesweeper is a simple puzzle game wherein you are supposed to
 clear the rectangular board without detonating any hidden mines or bombs.
@@ -135,7 +144,9 @@ The features of this game include:
 ● Ability to check the highest winning streak.
 
 Cross-Circle
+![](images/CrossCircleBefore.png)
 Figure 3.1 The before image for Cross & Circles
+![](images/CrossCircleAfter.png)
 Figure 3.2 The after image for cross & circles
 Cross & Circle is our normal Tic-Tac-Toe game with just a fancier name. It
 also goes by the name “ X and O’s ”. This is one of our favourite, most
@@ -146,7 +157,9 @@ The features of the Cross and Circles game are as follows:
 ● Users are able to play again by clicking on a button.
 
 Snake game
+![](images/SnakeGameBefore.png)
 Figure 4.1 The before image for snake game
+![](images/SnakeGameAfter.png)
 Figure 4.2 The after image for snake game
 The Snake game was the game we all used to play on our old Nokia
 phones. The snake game is the game wherein the player maneuvers a line
@@ -159,7 +172,9 @@ other side.
 ● Ability to end the game when the snake touches its own tail.
 
 Cannon Simulator
+![](images/CannonSimBefore.png)
 Figure 5.1 The before image for cannon simulator
+![](images/CannonSimAfter.png)
 Figure 5.2 The after image for cannon simulator
 The Cannon Simulator is a simulation game wherein you can shoot
 various cannons into the air. A simulation game is a type of video
