@@ -1,5 +1,5 @@
 # The Game Hub using java
-
+![](images/GameHub.png)
 # INTRODUCTION
 The Game Hub is a platform that enables users to choose from a number
 of games according to their choice and liking. The gaming hub was
