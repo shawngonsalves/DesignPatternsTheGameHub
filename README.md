@@ -216,10 +216,12 @@ implement and maintain. Using design patterns, we learnt to target very
 specific particular problems. We learned about all the design patterns
 taught in class and learned to map them to our games and see which one
 would be a better fit for the game features.
+
 We learned about the differences in each design pattern. We learnt each
 design pattern's implications, drawbacks and benefits. While implementing
 these design patterns we learned about the way to go about while
 implementing these design patterns.
+
 The implementation of this project helped us learn how to implement
 various design patterns. While implementing design patterns we had an
 opportunity to understand the design patterns in my depth and detail. One
