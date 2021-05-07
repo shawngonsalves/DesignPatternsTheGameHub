@@ -50,6 +50,7 @@ Let us begin with the explanation of each design pattern and how and why
 it was implemented in our system.
 
 1. Object Pool Design Pattern
+
 ![](images/ObjectPool.png)
 
 This design pattern helped us in the creation of the shape of the objects in
